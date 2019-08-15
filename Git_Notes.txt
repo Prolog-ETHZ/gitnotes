@@ -5,3 +5,27 @@
 	git remote add origin https://github.com/Prolog-ETHZ/gitnotes.git (set up on web with empty ssh or https)
 	git push origin master
 
+# Create a new branch based on an existing branch
+	git checkout {base_branch}
+	git checkout -b {new_branch} {base_branch}
+	git push origin {new_branch} (after changes have been done)
+
+# Rollback local commit
+	git reset --hard HEAD~1 (rollback in disk)
+	git reset HEAD~1 (just rollback the git track, leave the actual file untouched)
+
+# View git history
+	git log
+	git show <sha code>
+
+# remove file from git
+	git rm file_path (remove both in disk and git)
+	git rm --cached file_path (remove only in git)
+	git rm --f file_path (remove force in all)
+
+# Undo a change that have already been pushed to the remote
+	
+
+
+
+	
