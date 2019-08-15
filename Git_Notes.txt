@@ -1,0 +1,7 @@
+# Adding an existing project to GitHub using the command line
+	git init
+	git add * (remember to add README.md & .gitignore)
+	git commit -m "first commit"
+	git remote add origin https://github.com/Prolog-ETHZ/gitnotes.git (set up on web with empty ssh or https)
+	git push origin master
+
